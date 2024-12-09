@@ -3,6 +3,6 @@
 ### Name : Aakansh K Anil
 ### Roll No : B230117CS
 
-Files : html file : web.html,
+Files : html file : index.html,
         css file  : style1.css,
         javascript file : script.js
