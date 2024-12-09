@@ -1,0 +1,248 @@
+body 
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    background-color: hsl(226, 43%, 10%);  
+}
+  
+.frontpage
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 0px;
+    padding: 200px;
+}
+
+.profile-pic 
+{
+  border-radius: 50%;
+  width:90px;
+  height: 90px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  position: relative;
+  top: 25px;
+  right: 70px;
+}
+
+.display 
+{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+    width: 300px;
+    height: 440px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-align: center;
+    margin-left: -3.5%;
+    margin-top: -3.5%;
+}
+  
+.mainprof
+{
+    background-color:  hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 10px;
+    width: 280px;
+    height: 600px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.report-title
+{
+    font-size: 15px;
+    color: hsl(236, 100%, 87%);
+    padding-top: 50px;
+    padding-right: 160px;
+}
+  
+.name
+{
+    color: white;
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 200;
+    font-size: 50px;
+    padding-right: 60px;
+}
+  
+.view-options
+{
+  margin-top: 20px; 
+}
+  
+.view-btn 
+{
+    background: none;
+    border: none;
+    color: hsl(236, 100%, 87%);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+  
+.view-btn.active { color: hsl(0, 0%, 100%);}
+  
+.cards 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+  
+.card 
+{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+  
+.card h2 
+{
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10%;
+    padding-top: 10%;
+    margin-bottom: -10%;
+}
+   
+.current-time
+{ 
+  font-size: 60px;
+  margin-left: 10%;
+}
+  
+.previous-time 
+{
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    margin-top: -15%;
+    margin-left: 12%;
+}
+
+.work { background-color: hsl(15, 100%, 70%); width: 250px;height: 250px; margin-right: 10px; overflow: hidden;}
+.play { background-color: hsl(195, 74%, 62%);width: 250px;height: 250px;margin-right: 10px;overflow: hidden;}
+.study { background-color: hsl(348, 100%, 68%);width: 250px;height: 250px;overflow: hidden;}
+.exercise { background-color: hsl(145, 58%, 55%);width: 250px;height: 250px;margin-right: 10px;overflow: hidden;}
+.social { background-color: hsl(264, 64%, 52%);width: 250px;height: 250px;margin-right: 10px;overflow: hidden;}
+.selfcare { background-color: hsl(43, 84%, 65%);width: 250px;height: 250px;overflow: hidden;}  
+
+
+.backk
+{
+   background-color: hsl(235, 46%, 20%);
+   width: 290px;
+   margin-top: -20%;
+   margin-left: -5%;
+   border-radius: 15px;
+   z-index: -1;
+}
+
+.backx3
+{
+   background-color: hsl(235, 46%, 20%);
+   width: 290px;
+   height: 300px;
+   margin-top: -20%;
+   margin-left: -8%;
+   border-radius: 15px;
+}
+
+.back1
+{
+   background-color: hsl(235, 46%, 20%);
+   width: 290px;
+   height: 300px;
+   margin-top: -12.5%;
+   margin-left: -8%;
+   border-radius: 15px;
+}
+
+.back2
+{
+   background-color: hsl(235, 46%, 20%);
+   width: 290px;
+   height: 300px;
+   margin-top: -31.25%;
+   margin-left: -8%;
+   border-radius: 15px;
+}
+
+.back3
+{
+   background-color: hsl(235, 46%, 20%);
+   width: 290px;
+   height: 300px;
+   margin-top: -18%;
+   margin-left: -8%;
+   border-radius: 15px;
+}
+
+.ellipsis 
+{
+  font-size: 20px;
+  color: white;
+  margin-left: 150px;  
+}
+
+.ellipsis1
+{
+  font-size: 20px;
+  color: white;
+  margin-left: 120px;  
+}
+
+.ellipsis2
+{
+  font-size: 20px;
+  color: white;
+  margin-left: 145px;  
+}
+
+.ellipsis3 
+{
+  font-size: 20px;
+  color: white;
+  margin-left: 125px;  
+}
+
+.topimage1
+{
+    position: relative;
+    bottom: 45px;
+    left: 170px; 
+}
+.topimage2
+{
+    position: relative;
+    bottom: 45px;
+    left: 170px;  
+}
+.topimage3
+{
+    position: relative;
+    bottom: 45px;
+    left: 170px; 
+}
+.topimage4
+{
+    position: relative;
+    bottom: 27px;
+    left: 170px;  
+}
+.topimage5
+{
+    position: relative;
+    bottom: 65px;
+    left: 170px;  
+}
+.topimage6
+{
+    position: relative;
+    bottom: 40px;
+    left: 170px;  
+}
