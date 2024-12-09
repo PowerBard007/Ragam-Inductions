@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Tracking Dashboard</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+    </style>
+</head>
+
+<body>
+  <div class="frontpage">
+    <div class="mainprof">
+      <div class="display">
+        
+        <img src="images/image-jeremy.png" alt="Jeremy Robson" class="profile-pic" height="80px">
+        <p class="report-title">Report for</p>
+        <h2 class="name">Jeremy<br> Robson</h2>
+
+      </div>
+      <div class="view-options">
+        <button id="daily" class="view-btn">Daily</button><br>
+        <button id="weekly" class="view-btn">Weekly</button><br>
+        <button id="monthly" class="view-btn">Monthly</button>
+      </div>
+    </div>
+    <div class="cards">
+
+      <div class="card work">
+        
+        <img src="images/icon-work.svg " class="topimage1">
+        <div class="backx3">
+        
+          <h2>Work<span class="ellipsis">. . .</span></h2>
+          <p class="current-time" id="work-time">32hrs</p>
+          <p class="previous-time" id="work-prev">Last Week - 36hrs</p>
+      </div></div>
+
+      <div class="card play">
+        <img src="images/icon-play.svg" class="topimage2">
+        <div class="backx3"> 
+          <h2>Play<span class="ellipsis">. . .</span></h2>
+        <p class="current-time" id="play-time">10hrs</p>
+        <p class="previous-time" id="play-prev">Last Week - 8hrs</p>
+      </div></div>
+
+      <div class="card study">
+        <img src="images/icon-study.svg" class="topimage3">
+        <div class="backx3"> 
+        <h2>Study<span class="ellipsis">. . .</span></h2>
+        <p class="current-time" id="study-time">4hrs</p>
+        <p class="previous-time" id="study-prev">Last Week - 7hrs</p>
+      </div></div>
+
+      <div class="card exercise">
+        <img src="images/icon-exercise.svg" class="topimage4">
+        <div class="back1">
+       
+        <h2>Exercise<span class="ellipsis1">. . .</span></h2>
+        <p class="current-time" id="exercise-time">4hrs</p>
+        <p class="previous-time" id="exercise-prev">Last Week - 5hrs</p>
+      </div></div>
+
+      <div class="card social">
+        <img src="images/icon-social.svg" class="topimage5">
+        <div class="back2">
+        <h2>Social<span class="ellipsis2">. . .</span></h2>
+        <p class="current-time" id="social-time">5hrs</p>
+        <p class="previous-time" id="social-prev">Last Week - 10hrs</p>
+      </div></div>
+
+      <div class="card selfcare">
+        <img src="images/icon-self-care.svg" class="topimage6">
+        <div class="back3">
+        <h2>Self Care<span class="ellipsis3">. . .</span></h2>
+        <p class="current-time" id="selfcare-time">2hrs</p>
+        <p class="previous-time" id="selfcare-prev">Last Week - 2hrs</p>
+      </div></div>
+
+    </div>
+  </div>
+
+  <br><br><br><hr>
+  <div class="attribution" style="background-color: rgb(42, 66, 174);">
+    Coded By <a href="https://github.com/PowerBard007" target="_blank" style="color: yellowgreen;">AAKANSH K ANIL</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
